@@ -25,7 +25,7 @@ btn.addEventListener("click", e => {
         }
     };
 
-    xhr.open("POST", "./script.php", true);
+    xhr.open("POST", "./php/script.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     // xhr.send("name="+name+"&email="+email+"&password="+password+"&submit=submit");
     xhr.send(postData);
