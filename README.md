@@ -3,4 +3,4 @@
 * CSS3
 * JavaScript
 * PHP (8.3) version
-* SQL (MariaDB) Database
+* SQL (SQLite) Database
