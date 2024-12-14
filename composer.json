@@ -1,8 +1,8 @@
 {
-    "name": "u0_a351/php-ajax",
+    "name": "codewithsushil/php-ajax",
     "autoload": {
         "psr-4": {
-            "U0A351\\PhpAjax\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,7 @@
             "email": "sushilkumbhar77@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+      "php": "^8.0"
+    }
 }

@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+ul{
+  list-style: none;
+  background:#212530;
+  padding: 8px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1, h2{
+  color: rgb(50,100,250);
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 555;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color:#04AA6D;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px rgba(20,30,40,0.35);
+  }
+
+  /* The message box is shown when the userclicks on the password field */ 
+  #message {
+  display:none;
+  background: 󱓻 #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  /* Add a green text color and a checkmark when the requirements are right */
+
+  .valid {
+    color: green;
+  }
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content:"✖";
+  }

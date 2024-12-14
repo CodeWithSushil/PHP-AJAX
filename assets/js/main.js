@@ -1,6 +1,6 @@
 /*
 * APP: 1.0.0
-*//*
+*/
 const btn = document.getElementById("submit");
 btn.addEventListener("click", e => {
     e.preventDefault();
@@ -32,5 +32,4 @@ btn.addEventListener("click", e => {
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     // xhr.send("name="+name+"&email="+email+"&password="+password+"&submit=submit");
     xhr.send(postData);
-}); */
-alert('i');
+}); 
