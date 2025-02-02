@@ -18,9 +18,15 @@ if ($method === "GET" && $uri === "/"){
   require_once $filePath;
 } elseif ($method === "POST" && $uri === "/register") {
   require_once $filePath;
+  echo "<pre>";
+  print_r($_POST);
 }else{
   echo "<h1 align='center'>404 - Page Not Found.</h1>";
 }
 
-$asycn = stream_set_blocking($data,false);
+//$data = [
+//  'hi'
+//];
+
+//$asycn = stream_set_blocking($data,false);
 
