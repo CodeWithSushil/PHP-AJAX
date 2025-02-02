@@ -21,3 +21,6 @@ if ($method === "GET" && $uri === "/"){
 }else{
   echo "<h1 align='center'>404 - Page Not Found.</h1>";
 }
+
+$asycn = stream_set_blocking($data,false);
+
