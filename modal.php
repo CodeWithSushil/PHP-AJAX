@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./assets/css/bulma.min.css">
 <div class="modal">
   <div class="modal-background"></div>
   <div class="modal-card">
